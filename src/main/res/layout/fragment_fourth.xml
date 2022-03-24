@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Form_Pagamento"
+    android:id="@+id/third_fragment"
+    >
+
+
+    <ImageView
+        android:id="@+id/image_comprar"
+        style="@style/ContainerComponents"
+        android:layout_width="177dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_no_photography_24"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/nome_da_arte"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="94dp"
+        android:width="100dp"
+        android:text="Nome da arte"
+        android:textSize="17dp"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toEndOf="@+id/image_comprar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/preço_da_arte"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="94dp"
+        android:width="100dp"
+        android:text="Nome da arte"
+        android:textSize="17dp"
+
+/>
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

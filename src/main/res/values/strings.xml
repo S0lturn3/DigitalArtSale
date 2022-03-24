@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projeto DigitalArt</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="nome_pessoa">nome do usuàrio</string>
+    <string name="ou"> ou </string>
+
+</resources>
